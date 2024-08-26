@@ -1,0 +1,15 @@
+Josh Eres
+jeeres
+
+1. How are we going to implement the view?
+2. How are we going to use SpriteKit to have our character interact with the map?
+3. What will we use/how will we implement a physics engine?
+4. How will we incorporate core graphics and persistent storage?
+5. How will we provide interaction other than touching the screen
+6. How can we use spritekit to make our map/environment for the game?
+
+Implementation: 1, 3, 4
+
+SpriteKit: 2, 6
+
+User Input: 5

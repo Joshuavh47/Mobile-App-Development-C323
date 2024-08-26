@@ -1,0 +1,6 @@
+Josh Eres
+2/23/24
+C323
+i
+1. I have added persistent storage using the Codable protocol via  plists for my GuessThreeLetters project. This was actually pretty easy because my team used my GuessThreeLetters project for lab13, except we added a persistent variable that keeps track of the all-time guesses over every single game. This was also easy because my decoder returns a ThreeLettersModel, which means that all I have to do to load the game is call the loadGame() function in my app delegate (and set the returned Model class as the one in my delegate, which works because my ViewController gets the Model class ass a delegate) and then update the necesary labels in my ViewController. Even though we used json for lab13, the switch to plist was as easy as changing the encoder and decoder from JSONencoder/JSONdecoder to PropertyListEncoder/PropertyListDecoder. 
+2. As far as interesting things added in this assignment, I made it so that every single part of the app is persistent. All of the guess labels, answer labels, everything. This is nice because if a user had downloaded this app in the app store, it would allow them to close the app and return to the exact same instance of the game that they were playing. 

@@ -1,0 +1,8 @@
+Josh Eres
+C323
+02/28/24
+9:12 pm
+
+1. In this lab, I implemented the UIKitCards project from lab06 in SwiftUI. To do this, I used an overlay with the ".ignoresSafeArea" method to change the color of the background. In the parameters for this overlay, I included a VStack with 2 Text objects (for question and answert fields) and 2 buttons (to show the answer and change to the next question.) I also included 2 state variables, which hold the value of the question and answer strings that should appear in the respective Text objects. At first, the answer is "???" so that the user is able to guess the answer to the question provided. Then, in the action parameter for the "Show Answer" button, I used an if statement to toggle the answerText String variable between "???" and the answer. For the action parameter for the "Next Question" button, I updated the questionText String variable to the next question with the method from my model, and the answerText String to "???". I also used the foregroundColor() and background() methods to change the color of the font of the text and color of the Buttons/Text objects respectively. In addition, I used the padding() method to space the Text objects and Buttons out in a way that is visually appealing to the user. 
+
+2. One cool thing that I did is the spacing between all of the objects that appear on the screen. I think this is cool because I got to experiment with the padding() method, and because it looks very similar to the storyboard version of this project from lab06- especially due to my use of the frame() methods that I used to affect the size of each object on the screen.  

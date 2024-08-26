@@ -1,0 +1,4 @@
+Josh Eres
+jeeres
+
+For our app, we are going to try and implement a shooter/sidescroller game. We will be using SpriteKit for the character and maps. For the user input, we are going to use touches/buttons and Core Motion. We will also use Core Data for persistent storage (storing completed levels, number of lives, etc.)

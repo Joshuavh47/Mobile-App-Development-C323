@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Enable Dark Mode</string>
+			<key>Key</key>
+			<string>darkModeKey</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Amount of Guesses</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<integer>10</integer>
+				<integer>20</integer>
+				<integer>-1</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>10 Guesses</string>
+				<string>20 Guesses</string>
+				<string>Unlimited Guesses</string>
+			</array>
+			<key>Key</key>
+			<string>guessesKey</string>
+			<key>DefaultValue</key>
+			<integer>-1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
